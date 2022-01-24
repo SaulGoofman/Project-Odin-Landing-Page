@@ -1,0 +1,192 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding: 8px 96px 32px 96px;
+    margin: 0;
+    color: #f9faf8
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-text-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-text-content {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header-button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    font-size: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 28px;
+    border-radius: 8px;
+}
+
+.image-placeholder {
+    border: solid #f9faf8;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    flex-grow: 0;
+}
+a {
+    margin: 2px;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-size: small;
+    gap: 4px;
+}
+
+.main {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.section-one {
+    padding: 16px 108px 56px 108px;
+}
+
+.section-one-header {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+.box {
+    height: 108px;
+    width: 108px;
+    border: solid #3882f6;
+    margin-bottom: 16px;
+    border-radius: 16px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    gap: 80px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text {
+    text-align: center;
+    width: 150px;
+    color: #1f2937;
+    font-size: 14px;
+}
+
+.section-two {
+    padding: 72px 132px 72px 132px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quoter {
+    text-align: end;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+.section-three {
+    padding: 56px 96px 56px 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    gap: 48px;
+    padding: 32px 72px 32px 72px;
+}
+
+.call-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.call-content {
+    font-size: 14px;
+    color: #e5e7eb
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    border: solid 1px #f9faf8;
+    color: #f9faf8;
+    font-size: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 8px;
+}
+
+.footer {
+    min-height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8
+}
+
